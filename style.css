@@ -85,10 +85,12 @@ img{
     padding:  20px ;
     color: white;
     position: relative;
+    font-weight: 600;
 }
 .sidebar__cardtext{
     /* margin-top: 1rem; */
     font-size: 1.7rem;
+    font-weight: 500;
 }
 .sidebar__cardtext2{
     display: flex;
@@ -131,7 +133,6 @@ img{
 .content{
 
 height: 100vh;
-font-family: Rubik;
 font-weight: 500;
 font-size: .8rem;
 }
@@ -146,7 +147,7 @@ font-size: .8rem;
 
 }
 ::placeholder{
-    font-family: Rubik;
+    font-family: Space Grotesk;
 }
 .content input{
     border-radius: 5px;
@@ -204,7 +205,7 @@ label{
     background-color: hsl(278, 68%, 11%);
     color: white;
     padding: 10px 25px;
-    font-family: Rubik;
+    font-family: Space Grotesk;
     width: 300px;
     border-radius: 6px;
 }
