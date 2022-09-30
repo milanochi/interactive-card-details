@@ -102,6 +102,9 @@ img{
     font-weight: 500;
     letter-spacing: 1;
 }
+.sidebar__cardtext-left{
+    letter-spacing: 1.5px;
+}
 .sidebar__cardback{
     position: absolute;
     top: 53%;
@@ -125,6 +128,7 @@ img{
     padding: 10px;
     font-size: .8em;
     color: white;
+    font-weight: 600;
     
 }
 .content input:focus{
@@ -187,6 +191,7 @@ font-size: .8rem;
 label{
     display: block;
     margin-bottom: .3rem;
+    font-weight: 600;
  
 }
 .content__subinfo{
