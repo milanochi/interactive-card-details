@@ -9,6 +9,7 @@
 .container{
         max-width: 600px;
         width: calc(100% - 20px);
+        /* width: 100%; */
         margin: 0 auto;
 }
 body{
@@ -147,6 +148,7 @@ font-weight: 500;
 font-size: .8rem;
 display: none;
 
+
 }
 .content__inner{
 
@@ -169,18 +171,19 @@ display: none;
     /* background-color: rgba(167, 165, 165, 0.507); */
     line-height: 2.5;
     width: 100%;
-    margin-left: 6rem;
-   animation: confirm 1s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+    margin-left: 9rem;
+   animation: confirm .9s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+   
 }
 @keyframes confirm {
     0%{
-        opacity: 0;
+        transform: scale(0.1);
     }
-    50%{
-        opacity: 0;
-    }
+    /* 50%{
+        transform: scale(0.5);
+    } */
     100%{
-        opacity: 1;
+        transform: scale(1);
     }
 }
 
@@ -214,7 +217,7 @@ display: none;
     border: 1px solid grey;
 }
 .content__inner > div{
-    margin-bottom: 1.5rem;
+    margin-bottom: .9rem;
 }
 .content__field input{
     width: 60px;
@@ -244,7 +247,10 @@ display: none;
 label{
     display: block;
     margin-bottom: .3rem;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+    font-size: .7rem;
  
 }
 .content__subinfo{
@@ -262,24 +268,35 @@ label{
 .content__btn{
     background-color: hsl(278, 68%, 11%);
     color: white;
-    padding: 10px 25px;
+    padding: 12px 25px;
     font-family: Space Grotesk;
     width: 300px;
     border-radius: 6px;
     border: none;
+    font-size: .9rem;
 }
 input{
     font-size: 1rem;
 }
+
+
+
 @media (max-width: 800px) {
     .content{
-        height: 80vh;
+        height: 550px;
     }
     .content__inner{
         align-items: center;
         justify-content: center;
-        height: 90vh;
+        height: 550px;
+        /* background-color: grey; */
+       overflow: hidden;
+      width: 100%;
+     
+     
     }
+  
+    
   
    .sidebar{
        position: relative;
@@ -303,6 +320,7 @@ input{
     line-height: 2.5;
     width: 100%;
    margin: 0;
+   height: 500px;
    }
    .sidebar__inner{
        height: 280px;
@@ -326,7 +344,7 @@ input{
     .content__inner{
         align-items: center;
         justify-content: center;
-        height: 80vh;
+        height: 550px;
     }
     .sidebar__cardback{
         width: 300px;
