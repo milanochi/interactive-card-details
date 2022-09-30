@@ -12,7 +12,8 @@ const content = document.querySelectorAll('input');
 const code =   document.querySelector('.sidebar__cardback-inner');
 const mth = document.querySelector('.right1');
 const yr = document.querySelector('.sidebar__cardtext-right');
-const cardNum = document.querySelector('.sidebar__cardtext')
+const cardNum = document.querySelector('.sidebar__cardtext');
+const complete = document.querySelector('.content__confirm')
 
 acctName.addEventListener('input', (e) =>{
     let res = e.target.value
@@ -70,6 +71,10 @@ month.value = '';
 year.value='';
 acctName.value='';
 acctNum.value='';
+
+form.style.display = 'none';
+complete.style.display ='block'
+
 })
 
 
