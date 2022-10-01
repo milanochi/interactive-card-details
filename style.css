@@ -273,8 +273,9 @@ label{
     width: 300px;
     border-radius: 6px;
     border: none;
-    font-size: .7rem;
+    font-size: .8rem;
     margin-bottom: .5rem;
+    font-weight: 500;
 }
 input{
     font-size: 1rem;
