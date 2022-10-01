@@ -283,12 +283,12 @@ input{
 
 @media (max-width: 800px) {
     .content{
-        height: 550px;
+        height: 400px;
     }
     .content__inner{
         align-items: center;
-        justify-content: center;
-        height: 550px;
+        justify-content: flex-end;
+        height:400px;
         /* background-color: grey; */
        overflow: hidden;
       width: 100%;
@@ -343,8 +343,8 @@ input{
 @media (max-width: 375px) {
     .content__inner{
         align-items: center;
-        justify-content: center;
-        height: 550px;
+        justify-content: flex-end;
+        height: 400px;
     }
     .sidebar__cardback{
         width: 300px;
