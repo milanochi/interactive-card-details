@@ -75,11 +75,11 @@ expire.forEach((elem) => {
     }
     
 })
-cvv.value = '';
-month.value = '';
-year.value='';
-acctName.value='';
-acctNum.value='';
+// cvv.value = '';
+// month.value = '';
+// year.value='';
+// acctName.value='';
+// acctNum.value='';
 
 // err.forEach((val) =>{
 //     if(val.value > 0){
